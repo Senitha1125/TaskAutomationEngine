@@ -37,9 +37,8 @@ public class Main {
 
         workflow.setExecutionStrategy(new ReverseStrategy());
 
-        workflow.addObserver(new WorkflowLogger());
 
-        // Add tasks...
+        
 
         workflow.start();
     }
